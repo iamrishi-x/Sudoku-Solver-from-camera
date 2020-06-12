@@ -31,11 +31,11 @@ Files Contain ...
         
 Folders Contain ...
 
-1.model:
+1.model
 
-  Contains pretrained model 'model/digit_recognisor.h5'
+    Contains pretrained model 'model/digit_recognisor.h5'
   
-2.images:
+2.images
 
-  Use image to show to camera when code runs, Use ur smartphone to show sudoku image.
+    Use image to show to camera when code runs, Use ur smartphone to show sudoku image.
  
