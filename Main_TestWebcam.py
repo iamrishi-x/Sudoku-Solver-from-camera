@@ -8,6 +8,7 @@ purpose : 1.This file is use to get answer from sudoku image capture through the
           at project directory .
           3.After that it uses backtraking algorithm to predict grid from 'sudoku_Algorithm.py'
           file .
+          
 Author  : rishi bagul
 Email   : rushibagul4444@gmail.com
 Date    : 5 June 2020
@@ -23,7 +24,8 @@ import shutil
 WIDTH = 640
 HEIGTH = 480
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
+#Note u can get error at cap = cv2.VideoCapture(1) change it to cap = cv2.VideoCapture(0)
 cap.set(3,WIDTH)  #3 for width
 cap.set(4,HEIGTH) #4 for height
 
